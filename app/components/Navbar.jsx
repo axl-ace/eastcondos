@@ -7,10 +7,10 @@ const Navbar = () => {
           { id: 3 , link: "Agent"}
      ]
   return (
-       <div className='mb-6'>
-            <nav className='flex items-center justify-between'>
-                 <div><span className='font-black text-[24px]'>Eastate</span></div>
-                 <div className='flex justify-between items-center gap-6 text-[15px]'>
+       <div className=' py-6'>
+            <nav className='flex items-center justify-between '>
+                 <div><span className='font-bold text-[24px]'>Eastate</span></div>
+                 <div className='flex justify-between items-center gap-6 text-[14px] font-medium'>
                       {
                            navlist.map((link) => {
                                 return (
@@ -18,7 +18,7 @@ const Navbar = () => {
                                 )
                            })
                       }
-                      <button className='bg-black text-white py-2 px-6 rounded-[50px]'>Contact us</button>
+                      <button className='bg-[#282828] text-white py-2 px-6 rounded-[50px]'>Contact us</button>
                  </div>
                  
             </nav>
