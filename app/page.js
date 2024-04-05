@@ -5,6 +5,7 @@ import Achievements from './components/Achievements'
 import Discover from './components/Discover'
 import International from './components/International'
 import Latest from './components/Latest'
+import Testimonials from './components/Testimonials'
 
 const Page = () => {
   return (
@@ -15,6 +16,7 @@ const Page = () => {
       <Discover />
       <International />
       <Latest />
+      <Testimonials />
     </div>
   )
 }
