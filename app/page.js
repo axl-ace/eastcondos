@@ -8,6 +8,7 @@ import Discover from "./components/Discover";
 import International from "./components/International";
 import Latest from "./components/Latest";
 import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 const Page = () => {
 	useEffect(() => {
@@ -27,6 +28,7 @@ const Page = () => {
 			<International />
 			<Latest />
 			<Testimonials />
+			<Footer />
 		</div>
 	);
 };

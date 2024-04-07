@@ -3,7 +3,7 @@
 import React from "react";
 import { useState } from "react";
 import Image from "next/image";
-import seventhHouse from "../../public/seventhHouse.jpg";
+import seventhHouse from "../../public/hero.jpg";
 
 const Hero = () => {
 	const [active, setActive] = useState(true);
