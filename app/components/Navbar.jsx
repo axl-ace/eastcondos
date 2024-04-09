@@ -7,7 +7,7 @@ const Navbar = () => {
           { id: 3 , link: "Agent"}
      ]
   return (
-       <div className=' py-6'>
+       <div className=' py-6 hidden desktop:block'>
             <nav className='flex items-center justify-between '>
                  <div><span className='font-bold text-[24px]'>Eastate</span></div>
                  <div className='flex justify-between items-center gap-6 text-[14px] font-medium'>

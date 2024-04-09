@@ -20,7 +20,7 @@ const Page = () => {
 	}, []);
 
 	return (
-		<div className="w-full h-auto px-6">
+		<div className="w-full px-6">
 			<Navbar />
 			<Hero />
 			<Achievements />
