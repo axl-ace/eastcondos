@@ -1,5 +1,5 @@
 import localFont from "next/font/local";
-
+import HeaderMobile from "./components/Mobile-navs";
 import "./globals.css";
 
 export const metadata = {
@@ -61,7 +61,10 @@ export default function RootLayout({ children }) {
 			lang="en"
 			className={`${roboto_regular.variable} ${roboto_regular_italic.variable} ${roboto_medium.variable} ${roboto_medium_italic.variable} ${roboto_bold.variable} ${roboto_bold_italic.variable}`}
 		>
-			<body>{children}</body>
+			<body>
+				
+				{children}
+			</body>
 		</html>
 	);
 }

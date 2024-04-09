@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<section className="bg-[#282828] mb-8 rounded-xl">
+		<section className="bg-[#282828] rounded-xl">
 			<div className="desktop:px-[4rem] desktop:py-[4rem] p-6 ">
 				<div className="flex justify-between items-center border-b-[0.3px] border-white pb-8">
 					<div>
