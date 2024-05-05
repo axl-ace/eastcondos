@@ -18,12 +18,12 @@ const Achievements = () => {
 		<section className="desktop:my-[4rem] desktop:mx-[4rem] my-14">
 			<div className="flex flex-col desktop:flex-row gap-4 desktop:justify-between items-center mb-8">
 				<div className=" desktop:max-w-max">
-					<h1 className="font-bold text-[34px] desktop:text-[48px] leading-tight">
+					<h1 className="font-bold text-[34px] desktop:text-[48px] leading-tight text-skin-black">
 						Your Trusted Real <br className="hidden desktop:block"/> Estate Advisors
 					</h1>
 				</div>
 				<div className="">
-					<p>
+					<p className="text-skin-black">
 						A cutting-edge real state agent that offers a seamless <br className="hidden desktop:block" /> and
 						immersive experience for finding your dream home <br className="hidden desktop:block" /> in the heart
 						of the city{" "}
@@ -34,11 +34,11 @@ const Achievements = () => {
 			<div className="flex flex-col desktop:flex-row w-full items-center justify-between h-full desktop:h-[25rem] gap-4">
 				<div className="desktop:w-[50%] w-full h-full flex flex-col justify-between gap-4 ">
 					<div className="gap-4 flex h-[50%] items-center justify-between">
-						<div className=" bg-white w-[50%] h-full flex flex-col p-4 desktop:pl-8 justify-center rounded-xl">
+						<div className=" bg-skin-white w-[50%] h-full flex flex-col p-4 desktop:pl-8 justify-center rounded-xl">
 							<h1 className="font-bold text-[48px]">17k+</h1>
 							<span className="font-medium">Satisfied<br className="desktop:hidden block"/> Customers</span>
 						</div>
-						<div className=" bg-[#282828] text-white w-[50%] h-full flex flex-col p-4 desktop:pl-8 justify-center rounded-xl">
+						<div className=" bg-skin-dark text-skin-base w-[50%] h-full flex flex-col p-4 desktop:pl-8 justify-center rounded-xl">
 							<h1 className="font-bold text-[48px]">25+</h1>
 							<span className="font-medium">Years of<br className="desktop:hidden block"/> Experience</span>
 						</div>

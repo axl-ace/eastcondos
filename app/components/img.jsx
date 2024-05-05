@@ -48,7 +48,7 @@ export default function Home() {
 
     <div
       style={{ backgroundImage: `url(${imagePath})` }}
-      className="h-screen bg-cover bg-center text-white border-b-8 border-b-solid border-b-slate-400"
+      className="h-screen bg-cover bg-center text-skin-base border-b-8 border-b-solid border-b-slate-400"
     >
       {/* Your other components here */}
       </div>

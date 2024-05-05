@@ -4,7 +4,28 @@
 
 
 
+@layer base {
+     :root {
+
+          /* Text colors. */
+          --color-text-base: #FAFAFA;
+          --color-text-black: black;
+          --color-text-dark: #282828;
+          --color-text-mutted: #9CA3B0;
+
+          /* Background colors. */
+          --color-fill-offwhite: #FAFAFA;
+          --color-fill-dark: #282828;
+          --color-fill-brown: #F0EFED;
+          --color-fill-white: white;
+          --color-fill-green: #B18A5C;
+          --color-fill-greenmutted: #7F7F7F;
+          --color-fill-yellow: #EAB308;
+     }
+}
+
 body {
      background-color: #FAFAFA ;
      font-size: 16px;
 }
+

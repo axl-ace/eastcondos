@@ -11,13 +11,13 @@ const Discover = () => {
 		<section className="desktop:mx-[4rem] my-8">
 			<div className="flex flex-col desktop:flex-row justify-between items-center">
 				<div className="desktop:max-w-max mb-4">
-					<h1 className="font-bold text-[34px] desktop:text-[48px] leading-tight">
+					<h1 className="font-bold text-[34px] desktop:text-[48px] leading-tight text-skin-black">
 						Discover Your Perfect
 						<br className="hidden desktop:block" /> Property Match
 					</h1>
 				</div>
 				<div className="">
-					<p className=" leading-tight">
+					<p className=" leading-tight text-skin-black">
 						Embark on a journey of discovery through exclusive{" "}
 						<br className="hidden  desktop:block  " />
 						Collections of homes, luxury properties to fulfill your
@@ -40,21 +40,21 @@ const Discover = () => {
 					</div>
 
 					<div className="desktop:hidden block">
-						<div className="flex flex-col justify-between rounded-xl w-full h-[9rem] p-4 bg-[#282828]">
+						<div className="flex flex-col justify-between rounded-xl w-full h-[9rem] p-4 bg-skin-dark">
 							<div className="flex justify-between items-center relative">
-								<span className="font-bold text-white text-[20px] desktop:text-[40px]">
+								<span className="font-bold text-skin-base text-[20px] desktop:text-[40px]">
 									$1,200,000
 								</span>
-								<div className="bg-[#B18A5C] flex items-center justify-center p-2 rounded-full">
-									<ArrowUpRightIcon className="h-[16px] w[16px] text-white" />
+								<div className=" bg-skin-green flex items-center justify-center p-2 rounded-full">
+									<ArrowUpRightIcon className="h-[16px] w[16px] text-skin-base" />
 								</div>
 							</div>
 							<div className="flex flex-col gap-2 justify-between">
-								<div className="flex justify-between text-white">
+								<div className="flex justify-between text-skin-base">
 									<span className="block">21 Gotham Road</span>
 									<span className="block">Belmont. MA 0248</span>
 								</div>
-								<div className="flex gap-4 text-sm text-[#ffff]">
+								<div className="flex gap-4 text-sm text-skin-base">
 									<div>
 										<p>10,169</p>
 										<p>Sq.Ft</p>
@@ -72,21 +72,21 @@ const Discover = () => {
 						</div>
 					</div>
 					<div className="hidden desktop:block">
-						<div className="flex flex-col justify-between rounded-xl w-full h-[10rem] p-4 bg-[#282828]">
+						<div className="flex flex-col justify-between rounded-xl w-full h-[10rem] p-4 bg-skin-dark">
 							<div className="flex justify-between items-center relative">
-								<span className="font-bold text-white text-[40px]">
+								<span className="font-bold text-skin-base text-[40px]">
 									$1,200,000
 								</span>
-								<div className="bg-[#B18A5C] flex items-center justify-center absolute top-0 right-0 p-3 rounded-full">
-									<ArrowUpRightIcon className="h-[22px] w[22px] text-white" />
+								<div className="bg-skin-greenflex items-center justify-center absolute top-0 right-0 p-3 rounded-full">
+									<ArrowUpRightIcon className="h-[22px] w[22px] text-skin-base" />
 								</div>
 							</div>
 							<div className="flex justify-between">
-								<div className="flex flex-col text-white">
+								<div className="flex flex-col text-skin-base">
 									<span className="block">21 Gotham Road</span>
 									<span className="block">Belmont. MA 0248</span>
 								</div>
-								<div className="flex gap-4 text-[#fff4e7]">
+								<div className="flex gap-4 text-skin-base">
 									<div>
 										<p>10,169</p>
 										<p>Sq.Ft</p>

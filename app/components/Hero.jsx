@@ -25,17 +25,17 @@ const Hero = () => {
 					/>
 				</div>
 				<div className="flex flex-col justify-center mt-6">
-					<h1 className="font-bold text-[34px]  leading-tight text-[#282828]">
+					<h1 className="font-bold text-[34px]  leading-tight text-skin-dark">
 						Journey To Your Perfect Home
 					</h1>
-					<p className=" text-[#282828]">
+					<p className=" text-skin-dark">
 						Let our expert team guide you through the magic of real estate and
 						help you find the perfect home where your dreams take light.
 					</p>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-4 w-full mt-6">
-                         <button className="bg-[#282828] w-full rounded-md p-4 text-center text-white cursor-pointer">Learn More</button>
-                         <button  className="bg-blue-600 w-full rounded-md p-4 text-center text-white cursor-pointer"><Link href={'/properties'}>Browse Properties</Link></button>
+                         <button className="bg-skin-dark w-full rounded-md p-4 text-center text-skin-base cursor-pointer">Learn More</button>
+                         <button  className="bg-blue-600 w-full rounded-md p-4 text-center text-skin-base cursor-pointer"><Link href={'/properties'}>Browse Properties</Link></button>
                     </div>
 			</div>
 			<div
@@ -57,7 +57,7 @@ const Hero = () => {
 					alt="House"
 					className=" w-auto h-full object-cover"
 				/>
-				<div className=" text-white absolute inset-0  flex items-center justify-center">
+				<div className=" text-skin-base absolute inset-0  flex items-center justify-center">
 					<div className="flex flex-col items-center justify-center">
 						<div className="flex flex-col items-center mb-6">
 							<h1 className="font-bold text-[70px]">
@@ -72,37 +72,37 @@ const Hero = () => {
 						<div className="flex flex-col items-center justify-center">
 							<div>
 								<div className="flex">
-									<div className="bg-[#FAFAFA] text-[#282828] cursor-pointer py-1 px-4 text-sm rounded-ss-xl">
+									<div className="bg-skin-offwhite text-skin-dark cursor-pointer py-1 px-4 text-sm rounded-ss-xl">
 										Buy
 									</div>
-									<div className="bg-[#7F7F7F] text-[#FAFAFA] hover:bg-[#FAFAFA] hover:text-[#282828] cursor-pointer py-1 px-4 text-sm">
+									<div className="bg-skin-greenmutted text-skin-base hover:bg-skin-offwhite hover:text-skin-dark cursor-pointer py-1 px-4 text-sm">
 										Rent
 									</div>
-									<div className="bg-[#7F7F7F] text-[#FAFAFA] hover:bg-[#FAFAFA] cursor-pointer hover:text-[#282828] py-1 px-4 text-sm rounded-se-xl">
+									<div className="bg-skin-greenmutted text-skin-base hover:bg-skin-offwhite cursor-pointer hover:text-skin-dark py-1 px-4 text-sm rounded-se-xl">
 										Sell
 									</div>
 								</div>
-								<div className=" flex items-center gap-12 bg-[#FAFAFA] max-w-max max-h-max py-2 pl-4 pr-2 rounded-r-xl  rounded-es-xl">
+								<div className=" flex items-center gap-12 bg-skin-offwhite max-w-max max-h-max py-2 pl-4 pr-2 rounded-r-xl  rounded-es-xl">
 									<div>
-										<h5 className="text-[#282828] text-sm">Property Type</h5>
-										<p className="text-gray-500 text-[12px] font-italic">
+										<h5 className="text-skin-dark text-sm">Property Type</h5>
+										<p className="text-skin-mutted text-[12px] font-italic">
 											Select Propery Type
 										</p>
 									</div>
 									<div className="border-l-2 pl-6">
-										<h5 className="text-[#282828] text-sm">Location</h5>
-										<p className="text-gray-500 text-[12px] font-italic">
+										<h5 className="text-skin-dark text-sm">Location</h5>
+										<p className="text-skin-mutted text-[12px] font-italic">
 											e.g Gambir, JakartaPusat
 										</p>
 									</div>
 									<div className=" border-l-2 pl-6">
-										<h5 className="text-[#282828] text-sm">Price Range</h5>
-										<p className="text-gray-500 text-[12px] font-italic">
+										<h5 className="text-skin-dark text-sm">Price Range</h5>
+										<p className="text-skin-mutted text-[12px] font-italic">
 											Min.Price - Max.Price
 										</p>
 									</div>
 									<div>
-										<button className="text-white bg-[#282828] py-2 px-4 rounded-xl text-sm">
+										<button className="text-skin-base bg-skin-dark py-2 px-4 rounded-xl text-sm">
 											Search
 										</button>
 									</div>
@@ -112,16 +112,16 @@ const Hero = () => {
 								<div>
 									<span className="font-medium text-sm">Popular Search :</span>
 								</div>
-								<div className="bg-black/10 text[#F0EFED] cursor-pointer py-1 px-4 text-sm rounded-md backdrop-blur-md">
+								<div className="bg-black/10 text-skin-brown cursor-pointer py-1 px-4 text-sm rounded-md backdrop-blur-md">
 									Resident House
 								</div>
-								<div className="bg-black/10 text[#F0EFED] cursor-pointer py-1 px-4 text-sm rounded-md backdrop-blur-md">
+								<div className="bg-black/10 text-skin-brown cursor-pointer py-1 px-4 text-sm rounded-md backdrop-blur-md">
 									Studio Apartment
 								</div>
-								<div className="bg-black/10 text[#F0EFED] cursor-pointer py-1 px-4 text-sm rounded-md backdrop-blur-md">
+								<div className="bg-black/10 text-skin-brown cursor-pointer py-1 px-4 text-sm rounded-md backdrop-blur-md">
 									Countryside
 								</div>
-								<div className="bg-black/10 text[#F0EFED] cursor-pointer py-1 px-4 text-sm rounded-md backdrop-blur-md">
+								<div className="bg-black/10 text-skin-brown cursor-pointer py-1 px-4 text-sm rounded-md backdrop-blur-md">
 									Farmland House
 								</div>
 							</div>

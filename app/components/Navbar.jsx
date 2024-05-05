@@ -33,7 +33,7 @@ const Navbar = () => {
 							</div>
 						);
 					})}
-					<button className="bg-[#282828] text-white py-2 px-6 rounded-[50px]">
+					<button className="bg-skin-dark text-skin-base py-2 px-6 rounded-[50px]">
 						<Link href={'/contact-us'}>Contact us</Link>
 					</button>
 				</div>

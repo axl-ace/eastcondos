@@ -6,12 +6,12 @@ const Testimonials = () => {
 		<section className="desktop:m-[4rem] my-14">
 			<div className="flex flex-col  justify-between items-center mb-8">
 				<div className="max-w-max mb-4">
-					<h1 className="font-bold text-[34px] desktop:text-[48px] leading-tight">
+					<h1 className="font-bold text-[34px] desktop:text-[48px] text-skin-black leading-tight">
 						Discover Your Perfect Property Match
 					</h1>
 				</div>
 				<div className="">
-					<p className=" leading-tight desktop:text-center">
+					<p className=" leading-tight desktop:text-center text-skin-black">
 						Discover heartfelt accounts of joy and fulfilment as our valued
 						clients embark on <br className="hidden desktop:block"/> the quest for their dream homes and prime
 						investments
